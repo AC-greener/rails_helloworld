@@ -9,7 +9,7 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
+ * 会把 app/assets/stylesheets 目录中的所有 CSS 文件（包含子目录中的文件）都引入应用的 CSS 文件。 require_tre
  *= require_tree .
  *= require_self
  */
