@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # get 'users/new'
+  get '/signup', to: 'users#new'
   get '/help', to: 'static_pages#help'
   # 这个规则会定义两个具名路由
   # help_path -> '/help'
